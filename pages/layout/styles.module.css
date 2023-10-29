@@ -9,8 +9,19 @@
   width: 80%;
   background-color: #2d2e33;
   color: white;
-  margin-left: 6.5%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 15px;
+}
+
+@media (max-width: 1280px) {
+  .main {
+    width: 80%;
+    background-color: #2d2e33;
+    color: white;
+    margin-left: 6.5%;
+    padding: 15px;
+  }
 }
 
 .head {
@@ -62,6 +73,8 @@
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px !important;
   margin-right: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .top_section_right button:nth-child(3) {
