@@ -51,6 +51,8 @@
 .top_section_left p:nth-child(2) {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .top_section_left p:nth-child(3) {
@@ -75,8 +77,6 @@
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px !important;
   margin-right: 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 .top_section_right button:nth-child(3) {

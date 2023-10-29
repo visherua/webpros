@@ -57,7 +57,7 @@ const MainComponent = () => {
                 className={styles.check_icon}
                 src={"https://www.svgrepo.com/show/8345/checked.svg"}
               ></img>
-              free domain protection when you add hosting
+              free domain protection
             </p>
             <p className={styles.like_button}>
               <img
