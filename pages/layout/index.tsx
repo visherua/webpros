@@ -17,7 +17,7 @@ const MainComponent = () => {
         ></input>
         <button
           className={styles.button_continue}
-          onClick={() => setDomainName(inputValue)}
+          onClick={() => setDomainName(inputValue + '.store')}
         >
           Continue
         </button>
