@@ -18,11 +18,13 @@
 
   .head,
   .main {
-    width: 80%;
+    width: 100%;
     background-color: #2d2e33;
     color: white;
-    margin-left: 6.5%;
+    /* margin-left: 6.5%; */
     padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -257,5 +259,38 @@
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .left_card {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #f0f1f4;
+    color: black;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 12px
+  }
+
+  .right_card {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #f0f1f4;
+    color: black;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 12px;
   }
 }
