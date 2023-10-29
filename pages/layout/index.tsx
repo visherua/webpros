@@ -52,6 +52,7 @@ const MainComponent = () => {
         <section className={styles.bottom_section}>
           <div className={styles.features}>
             <p>Features:</p>
+            <br />
             <p className={styles.like_button}>
               <img
                 className={styles.check_icon}
