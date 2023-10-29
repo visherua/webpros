@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 //
 const MainComponent = () => {
   const [inputValue, setInputValue] = useState("");
-  const [domainName, setDomainName] = useState("mywebsitedomain.store");
+  const [domainName, setDomainName] = useState("domain.store");
   return (
     <div>
       <div className={styles.head}>
@@ -32,7 +32,7 @@ const MainComponent = () => {
               ></img>
               it`s a match
             </p>
-            <p>{domainName ? domainName : "mywebsitedomain.store"}</p>
+            <p>{domainName ? domainName : "domain.store"}</p>
             <p>This domain is available, get it now before it`s to late</p>
           </div>
           <div className={styles.top_section_right}>
