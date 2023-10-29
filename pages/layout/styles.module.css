@@ -9,19 +9,21 @@
   width: 80%;
   background-color: #2d2e33;
   color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
   padding: 15px;
 }
+
 .head {
   display: flex;
   justify-content: space-between;
 }
+
 .top_section {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid gray;
 }
+
 .top_section_left p:nth-child(1) {
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
@@ -32,30 +34,36 @@
   text-align: center;
   vertical-align: middle;
 }
+
 .top_section_left p:nth-child(2) {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px;
 }
+
 .top_section_left p:nth-child(3) {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 14px;
 }
+
 .top_section_right {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+
 .top_section_right p:nth-child(1) {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 12px !important;
   margin-right: 10px;
 }
+
 .top_section_right p:nth-child(2) {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 30px !important;
   margin-right: 10px;
 }
+
 .top_section_right button:nth-child(3) {
   font-family: "Lucida Console", "Courier New", monospace;
   border: 1px solid white;
@@ -63,6 +71,7 @@
   height: 35px;
   cursor: pointer;
 }
+
 @media (max-width: 1280px) {
   .top_section {
     display: flex;
@@ -70,28 +79,33 @@
     flex-direction: column;
     border-bottom: 1px solid gray;
   }
+
   .top_section_right {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
   }
 }
+
 .check_icon {
   width: 19px;
   vertical-align: bottom;
   margin-right: 3px;
   color: white;
 }
+
 .card_button_image {
   width: 20px;
   vertical-align: middle;
   margin-left: 5px;
 }
+
 .bottom_section {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+
 .like_button {
   font-family: Arial, Helvetica, sans-serif;
   padding: 6px;
@@ -103,22 +117,27 @@
   vertical-align: middle;
   margin-right: 10px;
 }
+
 .features {
   display: flex;
   flex-wrap: wrap;
 }
+
 .features p:nth-child(1) {
   font-family: "Lucida Console", "Courier New", monospace;
   margin-top: 22px;
 }
+
 .configuration_text {
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 14px;
 }
+
 .cards {
   display: flex;
   justify-content: space-between;
 }
+
 .left_card {
   font-family: "Lucida Console", "Courier New", monospace;
   background-color: #f0f1f4;
@@ -127,9 +146,11 @@
   width: 47%;
   border-radius: 10px;
 }
+
 .list_item {
   list-style: none;
 }
+
 .list_item::before {
   content: "";
   display: block;
@@ -142,6 +163,7 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .right_card {
   font-family: "Lucida Console", "Courier New", monospace;
   background-color: #f0f1f4;
@@ -150,9 +172,11 @@
   border-radius: 10px;
   padding: 15px;
 }
+
 .right_card p:nth-child(3) {
   font-size: 12px;
 }
+
 .right_card select {
   width: 100%;
   height: 50px;
@@ -161,12 +185,13 @@
   background: url(https://www.gravatar.com/avatar/ba03773d5fe4b970a7d7fb57a112e932?s=32&amp;d=identicon&amp;r=PG)
     no-repeat right center; */
 }
+
 .select_wrapper {
   position: relative;
 }
+
 .text_input {
-  background: url(https://www.svgrepo.com/show/532555/search.svg) no-repeat
-    right center;
+  background: url(https://www.svgrepo.com/show/532555/search.svg) no-repeat right center;
   background-size: 20px;
   background-color: white;
   background-position: 98%;
@@ -187,13 +212,16 @@
   color: white;
   padding: 10px;
 }
+
 @media only screen and (max-width: 1280px) {
+
   /* for 10 inches tablet screens */
   .cards {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
   }
+
   .left_card {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: #f0f1f4;
@@ -204,6 +232,7 @@
     margin: 0 auto;
     margin-bottom: 20px;
   }
+
   .right_card {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: #f0f1f4;
